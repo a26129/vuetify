@@ -1,31 +1,28 @@
 <template>
     <v-main>
-      <Botones></Botones>
-      <Carrusel></Carrusel>
-      <Carta></Carta>
-      <Formulario></Formulario>
-      <Paginacion></Paginacion>
-      <Pie></Pie>
+      <Tarjeta></Tarjeta>
     </v-main>
 </template>
 
 <script>
+import Tarjeta from './components/Carta'
+/*
 import Carrusel from './components/Carrusel'
 import Pie from './components/Pie'
 import Botones from './components/Botones'
-import Carta from './components/Carta'
+
 import Paginacion from './components/Paginacion'
-import Formulario from './components/Formulario'
+import Formulario from './components/Formulario'*/
 export default {
   name: 'App',
 
   components: {
-    Pie,
+  /*  Pie,
     Botones,
-    Carrusel,
-    Carta,
+    Carrusel,*/
+    Tarjeta/*,
     Paginacion,
-    Formulario
+    Formulario*/
   },
 
   data: () => ({
